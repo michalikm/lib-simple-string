@@ -54,4 +54,10 @@ class SimpleString
         return preg_replace('/[0-9]/', '', $string);
     }
 
+    public static function addHush($string)
+    {
+        $string += "##";
+        return $string;
+    }
+
 }
