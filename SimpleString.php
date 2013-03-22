@@ -54,6 +54,20 @@ class SimpleString
         return preg_replace('/[0-9]/', '', $string);
     }
     /**
+     * Adding string to text
+     *
+     * @param string $string String to add
+     *
+     * @todo Implement addString().
+     *
+     * @return string String with new word
+     */
+    public static function addString($string)
+    {
+        throw new \RuntimeException('Not implemented');
+    }
+
+    /*
      * Returns string without "a" letters
      *
      * @param string $string String to process
@@ -66,7 +80,6 @@ class SimpleString
     {
         throw new \RuntimeException('Not implemented');
     }
-
 
     /**
      * Returns string from behind
