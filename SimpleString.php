@@ -56,8 +56,7 @@ class SimpleString
 
     public static function addHush($string)
     {
-        $string += "##";
-        return $string;
+        throw new \RuntimeException('Not implemented');
     }
 
 }
